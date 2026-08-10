@@ -13,12 +13,12 @@
 
 This is an **AI Operating System**. When you provide this folder to an AI (Claude, GPT-4, Gemini, etc.), it transforms from a normal AI into a **25-Year Veteran Senior Engineer**.
 
-It now contains only **5 Mega Files (Pillars)** that instruct the AI:
-- 🧠 `01_SYSTEM_CORE.md` (Rules, memory, routing)
-- 🎨 `02_PRODUCT_DESIGN.md` (PRD, UI, components, branding)
-- ⚙️ `03_ENGINEERING_STANDARDS.md` (Next.js, Tailwind, Git, API)
-- 🔐 `04_SECURITY_TESTING.md` (Hacker testing, OWASP, debugging)
-- 🚀 `05_DEPLOYMENT_MAINTAIN.md` (Vercel, Cloudflare, CI/CD)
+It contains a comprehensive ecosystem of interconnected markdown files that instruct the AI on:
+- 🧠 **Core Logic** (Rules, memory, token optimization routing)
+- 🎨 **Product Design** (PRD, UI, components, branding)
+- ⚙️ **Engineering** (Next.js, Tailwind, Git, API design)
+- 🔐 **Security** (Hacker testing, OWASP, debugging)
+- 🚀 **Deployment** (Vercel, Cloudflare, CI/CD, performance)
 
 ---
 
@@ -34,7 +34,7 @@ npx vibe-brain-os
 
 **What this does:**
 - Creates a `skill.md` directory in your current path.
-- Automatically downloads and copies all **5 Mega Pillars** + `brain.md`.
+- Automatically downloads and copies the **Full Vibe Brain Ecosystem** (`01_SYSTEM_CORE.md`, `16_TOKEN_OPTIMIZATION_ROUTER.md`, etc.).
 - Safely skips overwriting your existing project `README.md`.
 
 ---
@@ -54,7 +54,7 @@ Step 2: Read the file 01_SYSTEM_CORE.md from this repo very carefully. It contai
 Step 3 (My Project Idea):
 [Write your idea here. For example: "I want to build a Full-Screen Web App just for Coders. The UI must be Premium (Glassmorphism + Neon Glow). Most importantly: there should be a small music player at the bottom playing 90s Lo-Fi tracks on an unlimited loop. Even if the user navigates to another page, the music should continue playing seamlessly without interruption."]
 
-Step 4: Now, use the rules from the 5 Mega Pillars (Design, Engineering, Security, Deployment) to plan and build this app step-by-step. Let's start with a solid Implementation Plan!
+Step 4: Now, use the rules from the ecosystem (Design, Engineering, Security, Deployment) to plan and build this app step-by-step. Let's start with a solid Implementation Plan!
 
 Step 5 (After AI provides the Implementation Plan, reply with this):
 This Implementation Plan is perfect! I approve it. Proceed to build Phase 1 and Phase 2. Write the actual code now.

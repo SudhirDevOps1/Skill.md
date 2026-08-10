@@ -5,16 +5,16 @@ const path = require("path");
 
 const TARGET_DIR = path.join(process.cwd(), "skill.md");
 
-// The files we want to copy from the NPM package to the user's project
-const FILES_TO_COPY = [
-  "01_SYSTEM_CORE.md",
-  "02_PRODUCT_DESIGN.md",
-  "03_ENGINEERING_STANDARDS.md",
-  "04_SECURITY_TESTING.md",
-  "05_DEPLOYMENT_MAINTAIN.md",
-  "brain.template.md",
-  "brain.md" // Include empty brain.md just in case
-];
+// Dynamically get all .md files from the package root, EXCEPT README.md
+const packageDir = path.join(__dirname, "..");
+let FILES_TO_COPY = [];
+try {
+  const allFiles = fs.readdirSync(packageDir);
+  FILES_TO_COPY = allFiles.filter(f => f.endsWith(".md") && f.toLowerCase() !== "readme.md");
+} catch (e) {
+  console.error("❌ Error reading package directory:", e.message);
+}
+
 
 // Folders to create
 const FOLDERS_TO_CREATE = [

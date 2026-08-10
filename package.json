@@ -1,6 +1,6 @@
 {
   "name": "vibe-brain-os",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An autonomous AI Operating System / Framework for Vibe Coding. Installs a highly optimized 5-Pillar context brain into your project.",
   "main": "bin/cli.js",
   "bin": {
