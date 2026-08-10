@@ -12,7 +12,6 @@ const FILES_TO_COPY = [
   "03_ENGINEERING_STANDARDS.md",
   "04_SECURITY_TESTING.md",
   "05_DEPLOYMENT_MAINTAIN.md",
-  "README.md",
   "brain.template.md",
   "brain.md" // Include empty brain.md just in case
 ];
