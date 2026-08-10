@@ -1,0 +1,31 @@
+{
+  "name": "vibe-brain-os",
+  "version": "1.0.0",
+  "description": "An autonomous AI Operating System / Framework for Vibe Coding. Installs a highly optimized 5-Pillar context brain into your project.",
+  "main": "bin/cli.js",
+  "bin": {
+    "vibe-brain-os": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhirDevOps1/Skill.md.git"
+  },
+  "keywords": [
+    "ai",
+    "prompt-engineering",
+    "vibe-coding",
+    "framework",
+    "cursor",
+    "claude",
+    "system-prompt"
+  ],
+  "author": "SudhirDevOps1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudhirDevOps1/Skill.md/issues"
+  },
+  "homepage": "https://github.com/SudhirDevOps1/Skill.md#readme"
+}

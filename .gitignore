@@ -120,3 +120,4 @@ gcloud-credentials.json
 aws-credentials
 .aws/
 .gcp/
+node_modules/
