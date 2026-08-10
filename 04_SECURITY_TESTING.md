@@ -91,3 +91,7 @@ E2E Testing ensures we don't break features during vibe coding. Default to Playw
 
 ---
 
+
+
+---
+**Related Files:** [01_SYSTEM_CORE.md](01_SYSTEM_CORE.md) | [02_PRODUCT_DESIGN.md](02_PRODUCT_DESIGN.md) | [03_ENGINEERING_STANDARDS.md](03_ENGINEERING_STANDARDS.md) | [05_DEPLOYMENT_MAINTAIN.md](05_DEPLOYMENT_MAINTAIN.md) | [MANIFEST.md](MANIFEST.md) | [brain.md](brain.md)

@@ -172,3 +172,7 @@ When asked to build a UI element (Button, Modal, Dropdown, Table):
 
 ---
 
+
+
+---
+**Related Files:** [01_SYSTEM_CORE.md](01_SYSTEM_CORE.md) | [03_ENGINEERING_STANDARDS.md](03_ENGINEERING_STANDARDS.md) | [04_SECURITY_TESTING.md](04_SECURITY_TESTING.md) | [05_DEPLOYMENT_MAINTAIN.md](05_DEPLOYMENT_MAINTAIN.md) | [MANIFEST.md](MANIFEST.md) | [brain.md](brain.md)

@@ -151,3 +151,7 @@ After completing a feature or fixing a bug, pause and reflect:
 
 ---
 
+
+
+---
+**Related Files:** [02_PRODUCT_DESIGN.md](02_PRODUCT_DESIGN.md) | [03_ENGINEERING_STANDARDS.md](03_ENGINEERING_STANDARDS.md) | [04_SECURITY_TESTING.md](04_SECURITY_TESTING.md) | [05_DEPLOYMENT_MAINTAIN.md](05_DEPLOYMENT_MAINTAIN.md) | [MANIFEST.md](MANIFEST.md) | [brain.md](brain.md)

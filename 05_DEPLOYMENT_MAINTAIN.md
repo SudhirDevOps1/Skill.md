@@ -108,3 +108,7 @@ You MUST use a web search tool or read documentation files autonomously when:
 
 ---
 
+
+
+---
+**Related Files:** [01_SYSTEM_CORE.md](01_SYSTEM_CORE.md) | [02_PRODUCT_DESIGN.md](02_PRODUCT_DESIGN.md) | [03_ENGINEERING_STANDARDS.md](03_ENGINEERING_STANDARDS.md) | [04_SECURITY_TESTING.md](04_SECURITY_TESTING.md) | [MANIFEST.md](MANIFEST.md) | [brain.md](brain.md)

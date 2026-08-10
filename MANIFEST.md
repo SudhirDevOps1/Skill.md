@@ -30,21 +30,17 @@ graph TD
         SECURITY["🛡️ 03_SECURITY_AUDIT\nSecurity check"]
         BRAND["🎨 14_BRANDING_GUIDE\nColors, fonts, logos"]
     end
-
-    subgraph T3["🔴 Tier 3 — All Files"]
-        ALL["📂 All 22 files loaded\nFull veteran mode"]
-        WEB["🌐 11_2027_WEB_ECOSYSTEM"]
-        API["🔌 19_API_DESIGN_GUIDE"]
-        PERF["⚡ 17_PERFORMANCE_GUIDE"]
-        DEPLOY["🚀 18_DEPLOYMENT_GUIDE"]
-        GIT["📦 07_GIT_COMMITS"]
-        HACK["🕵️ 09_HACKER_TESTING"]
-        TEST["🧪 05_TESTING_GUIDE"]
-    end
-
-    T3 --> EXECUTE
-    T2 --> EXECUTE
-    T1 --> EXECUTE
+graph TD;
+    U[User Prompt] --> R(1. 01_SYSTEM_CORE.md);
+    R --> D(2. 02_PRODUCT_DESIGN.md);
+    R --> C(3. 03_ENGINEERING_STANDARDS.md);
+    R --> S(4. 04_SECURITY_TESTING.md);
+    R --> M(5. 05_DEPLOYMENT_MAINTAIN.md);
+    
+    D -.-> B[brain.md / CHANGELOG.md];
+    C -.-> B;
+    S -.-> B;
+    M -.-> B;
 
     EXECUTE["💻 Execute Task"]
     EXECUTE --> REFLECT["🔁 13_SELF_REFLECTION_LOOP\nLearn from mistakes"]
@@ -55,58 +51,32 @@ graph TD
 
 ---
 
-## 📁 Complete File Index
+## 📂 V2 Architecture: The 5 Mega Pillars
 
-### 🧭 Core System (Always Available)
-| File | Purpose | Tier Needed |
-|---|---|---|
-| `00_SYSTEM_INSTRUCTIONS.md` | Master persona + reading order | All |
-| `brain.md` | Persistent project memory | Tier 1+ |
-| `16_TOKEN_OPTIMIZATION_ROUTER.md` | Smart context routing | All (first) |
-| `15_MANDATORY_RULES.md` | 7 unbreakable laws | Tier 1+ |
-| `CHANGELOG.md` | Strict change log | Tier 1+ |
-
-### 📐 Planning & Design (Tier 2+)
+### 1. The Core Brain
 | File | Purpose | Reads Into |
 |---|---|---|
-| `01_PRD_TEMPLATE.md` | Product requirements | → 02_DESIGN_BRIEF |
-| `02_DESIGN_BRIEF.md` | UI/UX rules (2027) | → 14_BRANDING_GUIDE |
-| `14_BRANDING_GUIDE.md` | Color system, fonts, SVG logos | → 02_DESIGN_BRIEF |
-| `20_UI_COMPONENTS_GUIDE.md` | Component reuse, design consistency | → 02_DESIGN_BRIEF |
+| `01_SYSTEM_CORE.md` | Replaces 00_SYSTEM, Rules, Router, Memory, Reflection | → 02_PRODUCT_DESIGN |
 
-### 🔐 Security & Quality (Tier 2+)
+### 2. Design & UI
 | File | Purpose | Reads Into |
 |---|---|---|
-| `03_SECURITY_AUDIT.md` | Pre-deploy security checklist | → 09_HACKER_TESTING |
-| `09_HACKER_TESTING.md` | Red-team attack simulation | → 03_SECURITY_AUDIT |
-| `15_MANDATORY_RULES.md` | Module isolation, no placeholders | → CHANGELOG |
-| `SECURITY.md` | What never to push to GitHub | → .gitignore |
+| `02_PRODUCT_DESIGN.md` | Replaces PRD, Design Brief, Branding, UI Components | → 03_ENGINEERING_STANDARDS |
 
-### 💻 Development (Tier 2+)
+### 3. Code & Engineering
 | File | Purpose | Reads Into |
 |---|---|---|
-| `04_DEBUGGING_PROTOCOL.md` | Structured bug fixing | → 13_SELF_REFLECTION |
-| `05_TESTING_GUIDE.md` | Vitest + Playwright strategy | → 17_PERFORMANCE |
-| `06_CLEANUP_RULES.md` | Dead code removal | → 07_GIT_COMMITS |
-| `08_SKILL_CREATION.md` | Convert tasks to reusable skills | → skills/README |
-| `10_MEMORY_MANAGEMENT.md` | brain.md compression | → brain.md |
-| `12_AUTONOMOUS_RESEARCH.md` | Web research before guessing | → CHANGELOG |
-| `19_API_DESIGN_GUIDE.md` | REST vs tRPC vs GraphQL | → 03_SECURITY |
+| `03_ENGINEERING_STANDARDS.md` | Replaces 2027 Ecosystem, Performance, API, Git, Cleanup | → 04_SECURITY_TESTING |
 
-### 🚀 Shipping (Tier 3)
+### 4. Security & Testing
 | File | Purpose | Reads Into |
 |---|---|---|
-| `07_GIT_COMMITS.md` | Branch strategy + commits | → 18_DEPLOYMENT |
-| `11_2027_WEB_ECOSYSTEM.md` | Modern stack spec | → 17_PERFORMANCE + 19_API |
-| `17_PERFORMANCE_GUIDE.md` | Core Web Vitals, Lighthouse CI | → 18_DEPLOYMENT |
-| `18_DEPLOYMENT_GUIDE.md` | Vercel + Cloudflare deploy | → 07_GIT_COMMITS |
+| `04_SECURITY_TESTING.md` | Replaces Security Audit, Hacker Testing, Debugging, Testing Guide | → 05_DEPLOYMENT_MAINTAIN |
 
-### 🤖 AI Self-Improvement (Every Turn)
+### 5. Deployment & Maintenance
 | File | Purpose | Reads Into |
 |---|---|---|
-| `13_SELF_REFLECTION_LOOP.md` | Learn from mistakes | → brain.md [LESSONS] |
-| `FEATURES.md` | Feature roadmap + bekahr list | → 01_PRD_TEMPLATE |
-| `TODO.md` | Sprint task tracking | → CHANGELOG |
+| `05_DEPLOYMENT_MAINTAIN.md` | Replaces Deployment Guide, Skills Creation, Autonomous Research | → Execute |
 
 ### 📚 Skills Library
 | File | Purpose |

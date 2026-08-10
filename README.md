@@ -8,13 +8,12 @@
 
 यह एक **AI Operating System** है। जब आप किसी AI (Claude, GPT-4, Gemini, आदि) को यह folder देते हैं, तो वो एक normal AI से एक **25-Year Veteran Senior Engineer** बन जाता है।
 
-इसमें 22 files हैं जो AI को बताती हैं:
-- कैसे plan करना है (PRD)
-- कैसे design करना है (branding, UI/UX)
-- कैसे secure code लिखना है (hacker testing)
-- कैसे deploy करना है (Vercel, Cloudflare)
-- कैसे अपनी गलतियों से सीखना है (self-reflection)
-- कब किस file को पढ़ना है (token optimization)
+इसमें अब सिर्फ **5 Mega Files (Pillars)** हैं जो AI को बताती हैं:
+- 🧠 `01_SYSTEM_CORE.md` (Rules, memory, routing)
+- 🎨 `02_PRODUCT_DESIGN.md` (PRD, UI, components, branding)
+- ⚙️ `03_ENGINEERING_STANDARDS.md` (Next.js, Tailwind, Git, API)
+- 🔐 `04_SECURITY_TESTING.md` (Hacker testing, OWASP, debugging)
+- 🚀 `05_DEPLOYMENT_MAINTAIN.md` (Vercel, Cloudflare, CI/CD)
 
 ---
 
@@ -27,7 +26,7 @@ Terminal में यह command चलाएं:
 git clone https://github.com/SudhirDevOps1/Skill.md.git
 
 Step 2: AI को यह prompt दें:
-        "Read 00_SYSTEM_INSTRUCTIONS.md from the cloned folder
+        "Read 01_SYSTEM_CORE.md from the cloned folder
          and follow the ecosystem. My idea: [आपका idea]"
 
 Step 3: बस। AI बाकी सब खुद करेगा।

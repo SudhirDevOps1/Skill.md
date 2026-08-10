@@ -19,19 +19,12 @@
 * [ ] Issue 2: Wait for user to provide API keys.
 
 ## 📂 System File Pointers (For AI Reference)
-* **Router (Read First!):** `16_TOKEN_OPTIMIZATION_ROUTER.md`
-* **PRD Rules:** `01_PRD_TEMPLATE.md`
-* **Design Rules:** `02_DESIGN_BRIEF.md`
-* **UI Components:** `20_UI_COMPONENTS_GUIDE.md`
-* **Security Rules:** `03_SECURITY_AUDIT.md`
-* **Debug Rules:** `04_DEBUGGING_PROTOCOL.md`
-* **Test Rules:** `05_TESTING_GUIDE.md`
-* **Cleanup Rules:** `06_CLEANUP_RULES.md`
-* **Git Rules:** `07_GIT_COMMITS.md`
-* **Performance:** `17_PERFORMANCE_GUIDE.md`
-* **Deployment:** `18_DEPLOYMENT_GUIDE.md`
-* **API Design:** `19_API_DESIGN_GUIDE.md`
-* **Skills:** `skills/`
+* **The Core Brain (Router & Rules):** `01_SYSTEM_CORE.md`
+* **Design & UI Rules:** `02_PRODUCT_DESIGN.md`
+* **Code & Engineering:** `03_ENGINEERING_STANDARDS.md`
+* **Security & Testing:** `04_SECURITY_TESTING.md`
+* **Deployment & Skills:** `05_DEPLOYMENT_MAINTAIN.md`
+* **Skills Folder:** `skills/`
 
 ## 🧠 [LESSONS] — Permanent Error Log
 > AI: जब भी कोई गलती हो, उसे यहाँ add करो ताकि दोबारा न हो। (From `13_SELF_REFLECTION_LOOP.md`)
