@@ -68,9 +68,38 @@ vercel rollback
 
 # Cloudflare: rollback via dashboard
 # Workers > your-worker > Deployments > previous > Rollback
-```
+## NPM / PyPI Publishing (Open-Source Packages)
+If the project is a Library or CLI tool, do NOT publish manually from the terminal. Use GitHub Actions for automated publishing.
 
-**Linked Files:** [07_GIT_COMMITS.md](07_GIT_COMMITS.md) | [17_PERFORMANCE_GUIDE.md](17_PERFORMANCE_GUIDE.md) | [03_SECURITY_AUDIT.md](03_SECURITY_AUDIT.md)
+### 1. Semantic Versioning (SemVer)
+Always increment versions based on these strict rules (`MAJOR.MINOR.PATCH`):
+- **Patch (`1.0.1`)**: Small bug fixes or typo corrections.
+- **Minor (`1.1.0`)**: New features that do NOT break existing code (backward compatible).
+- **Major (`2.0.0`)**: Breaking changes that will require users to update their code.
+
+### 2. GitHub Actions (Automated CI/CD)
+Create `.github/workflows/release.yml` so the package is published automatically when a new release tag is pushed.
+```yaml
+name: Publish Package
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install
+      - run: npm run build
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+```
+**Rule:** The AI must instruct the user to generate an NPM Token (or PyPI token) and save it in GitHub Secrets.
 
 ---
 

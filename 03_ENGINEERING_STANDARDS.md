@@ -226,7 +226,40 @@ Present a table with a risk level for each deletion. Stop and wait for user appr
 
 ---
 
+# 📖 20_DOCUMENTATION_STANDARDS (Developer-Friendly)
 
+> A great package with bad documentation will never be used. README is your product's landing page.
+
+## 1. Mandatory README Structure
+If you are building an Open-Source Package, Library, or CLI tool, your `README.md` MUST include the following sections:
+
+### 🚀 Installation Command
+Always provide the exact command to install the package at the very top.
+```bash
+npm install my-awesome-package
+# or
+pip install my-awesome-package
+```
+
+### ⚡ Quick Start Code
+Provide a minimal code snippet showing how to import and use the package immediately.
+```javascript
+import { doSomething } from "my-awesome-package";
+
+// Quick setup
+const result = doSomething({ option: true });
+console.log(result);
+```
+
+### 📚 API Reference
+List all exported functions/classes. For each, specify:
+* What it does.
+* Arguments it takes (with types).
+* What it returns.
+
+## 2. Code Comments & JSDoc
+* Do not write obvious comments like `// adds two numbers`.
+* Use JSDoc (`/** ... */`) for all exported functions in libraries so developers get autocomplete in VS Code.
 
 ---
 **Related Files:** [01_SYSTEM_CORE.md](01_SYSTEM_CORE.md) | [02_PRODUCT_DESIGN.md](02_PRODUCT_DESIGN.md) | [04_SECURITY_TESTING.md](04_SECURITY_TESTING.md) | [05_DEPLOYMENT_MAINTAIN.md](05_DEPLOYMENT_MAINTAIN.md) | [MANIFEST.md](MANIFEST.md) | [brain.md](brain.md)
