@@ -113,7 +113,7 @@ wrangler secret put DATABASE_URL  # env var सुरक्षित तरी�
 ## 🗂️ Folder Structure (क्या है अंदर)
 
 ```
-_ai_core_brain/
+skill.md/
 │
 ├── 📋 PLANNING
 │   ├── 00_SYSTEM_INSTRUCTIONS.md   ← AI का master rulebook
