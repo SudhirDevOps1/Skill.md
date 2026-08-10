@@ -5,15 +5,15 @@
 > If a human gave you the link to this repository, **STOP READING THIS README!**
 > Your actual system instructions are inside `01_SYSTEM_CORE.md`. You MUST immediately read `01_SYSTEM_CORE.md` and follow the rules there. Do NOT execute the example prompts found below. Go read `01_SYSTEM_CORE.md` right now!
 
-> **(For Humans): किसी भी AI को यह folder दो और एक prompt में बताओ अपना idea — बाकी सब AI खुद करेगा।**
+> **(For Humans): Give this folder to any AI and explain your idea in a prompt — the AI will handle everything else autonomously.**
 
 ---
 
-## ⚡ यह Folder क्या है?
+## ⚡ What is this Folder?
 
-यह एक **AI Operating System** है। जब आप किसी AI (Claude, GPT-4, Gemini, आदि) को यह folder देते हैं, तो वो एक normal AI से एक **25-Year Veteran Senior Engineer** बन जाता है।
+This is an **AI Operating System**. When you provide this folder to an AI (Claude, GPT-4, Gemini, etc.), it transforms from a normal AI into a **25-Year Veteran Senior Engineer**.
 
-इसमें अब सिर्फ **5 Mega Files (Pillars)** हैं जो AI को बताती हैं:
+It now contains only **5 Mega Files (Pillars)** that instruct the AI:
 - 🧠 `01_SYSTEM_CORE.md` (Rules, memory, routing)
 - 🎨 `02_PRODUCT_DESIGN.md` (PRD, UI, components, branding)
 - ⚙️ `03_ENGINEERING_STANDARDS.md` (Next.js, Tailwind, Git, API)
@@ -22,11 +22,11 @@
 
 ---
 
-## 🚀 कैसे Use करें? (3 Steps)
+## 🚀 How to Use? (3 Steps)
 
-### 📝 AI के लिए Master Prompt (यहाँ से Copy करें)
+### 📝 Master Prompt for AI (Copy from here)
 
-जब भी आप कोई नया प्रोजेक्ट शुरू करें, AI को यह **Master Prompt** दें:
+Whenever you start a new project, give this **Master Prompt** to the AI:
 
 ```text
 Act as a 25-Year Veteran Senior Software Engineer. I am giving you a highly optimized AI Operating System / Brain.
@@ -35,7 +35,7 @@ Step 1: Analyze and clone my skill framework repository into your local workspac
 Step 2: Read the file 01_SYSTEM_CORE.md from this repo very carefully. It contains your core instructions, routing logic, and mandatory rules. Follow everything written in it strictly.
 
 Step 3 (My Project Idea):
-[यहाँ अपना आईडिया लिखें। जैसे: "मुझे एक Full-Screen Web App बनाना है। यह App सिर्फ Coders के लिए होगा। इसका UI एकदम Premium (Glassmorphism + Neon Glow) होना चाहिए। सबसे ज़रूरी चीज़: इसके एकदम नीचे एक छोटा सा म्यूजिक प्लेयर होगा जो 90s के Lo-Fi गाने Unlimited Loop में प्ले करेगा। यूजर अगर किसी दूसरे पेज पर नेविगेट (Next etc.) करे, तब भी गाना कटना या रुकना नहीं चाहिए, Seamless चलना चाहिए।"]
+[Write your idea here. For example: "I want to build a Full-Screen Web App just for Coders. The UI must be Premium (Glassmorphism + Neon Glow). Most importantly: there should be a small music player at the bottom playing 90s Lo-Fi tracks on an unlimited loop. Even if the user navigates to another page, the music should continue playing seamlessly without interruption."]
 
 Step 4: Now, use the rules from the 5 Mega Pillars (Design, Engineering, Security, Deployment) to plan and build this app step-by-step. Let's start with a solid Implementation Plan!
 
@@ -47,41 +47,41 @@ This Implementation Plan is perfect! I approve it. Proceed to build Phase 1 and 
 
 ## 📊 Normal AI vs System AI — Real Comparison
 
-### Example Task: *"Portfolio landing page banao Cloudflare Pages + Neon Database ke saath"*
+### Example Task: *"Build a portfolio landing page with Cloudflare Pages + Neon Database"*
 
-| Factor | Normal AI (बिना folder) | System AI |
+| Factor | Normal AI (without folder) | System AI |
 |---|---|---|
 | **Total Tokens Used** | ~11,185 | ~16,000 |
-| **Back-and-forth rounds** | 7 बार | 1-2 बार |
-| **Security holes found later** | 2-3 (खतरनाक) | 0 |
-| **Deploy attempts needed** | 3 बार fail | 1st try success |
+| **Back-and-forth rounds** | 7 times | 1-2 times |
+| **Security holes found later** | 2-3 (critical) | 0 |
+| **Deploy attempts needed** | 3 times failed | 1st try success |
 | **Code quality** | 60/100 | 95/100 |
 | **User frustration** | HIGH | ZERO |
 | **Time spent** | 45-60 min | 10-15 min |
 
-> **ज़्यादा tokens? हाँ, ~4,800 ज़्यादा। लेकिन उन 4,800 tokens से 6 re-tries, 3 security bugs, और 2 failed deployments बचते हैं।**
+> **More tokens? Yes, ~4,800 more. But those 4,800 tokens save you 6 re-tries, 3 security bugs, and 2 failed deployments.**
 
 ---
 
-## 🔴 Normal AI क्या गलतियाँ करता है?
+## 🔴 What Mistakes Does Normal AI Make?
 
-यहाँ एक **real example** है कि एक normal AI कैसे फँसता है (और System AI कैसे बचाता है):
+Here is a **real example** of how a normal AI gets stuck (and how System AI saves you):
 
-| गलती | नुकसान |
+| Mistake | Consequence |
 |---|---|
-| `node-postgres` use करता है Cloudflare Workers में | ❌ App crash — CF में Node runtime नहीं है |
-| JWT token `localStorage` में रखता है | ❌ Hacker आसानी से token चुरा सकता है (XSS) |
-| पुरानी `wrangler.toml` syntax use करता है | ❌ Deploy fail, घंटों की debugging |
-| Database URL `NEXT_PUBLIC_` prefix के साथ | ❌ Database password public हो जाता है |
-| `// TODO: implement this` छोड़ देता है | ❌ आपको खुद code पूरा करना पड़ता है |
-| CSRF check नहीं करता | ❌ Security audit में fail |
-| हर session में context भूल जाता है | ❌ हर बार फिर से explain करो |
+| Uses `node-postgres` in Cloudflare Workers | ❌ App crash — Node runtime is not available in CF |
+| Stores JWT token in `localStorage` | ❌ Hackers can easily steal the token (XSS) |
+| Uses outdated `wrangler.toml` syntax | ❌ Deploy fails, hours of debugging |
+| Exposes Database URL with `NEXT_PUBLIC_` prefix | ❌ Database password becomes public |
+| Leaves `// TODO: implement this` | ❌ You have to write the code yourself |
+| Fails to implement CSRF checks | ❌ Fails security audit |
+| Forgets context in every session | ❌ You have to explain everything again |
 
 ---
 
-## 🤖 System AI क्यों better code लिखता है?
+## 🤖 Why Does System AI Write Better Code?
 
-### 1. 🎯 सही Driver इस्तेमाल करता है
+### 1. 🎯 Uses the Right Drivers
 ```js
 // Normal AI (WRONG — crashes on Cloudflare)
 import { Pool } from 'pg'
@@ -90,40 +90,40 @@ import { Pool } from 'pg'
 import { neon } from '@neondatabase/serverless'
 ```
 
-### 2. 🔐 Security पहले
+### 2. 🔐 Security First
 ```js
 // Normal AI (INSECURE)
 localStorage.setItem('token', jwt)
 
 // System AI (SECURE)
-// Uses HttpOnly cookies — JS access नहीं कर सकता
+// Uses HttpOnly cookies — JS cannot access it
 res.setHeader('Set-Cookie', `token=${jwt}; HttpOnly; Secure; SameSite=Strict`)
 ```
 
-### 3. 🧠 Context याद रहता है
+### 3. 🧠 Retains Context
 ```
-Normal AI:    Session 2 में भूल गया कि आपने PostgreSQL choose किया था
-System AI: brain.md पढ़ता है - "अच्छा, पिछली बार मैंने..."गा
+Normal AI:    Forgets in Session 2 that you chose PostgreSQL
+System AI:    Reads brain.md - "Ah, last time I..."
 ```
 
 ### 4. 🚀 First-try Deployment
 ```bash
-# System AI exact commands बताता है:
+# System AI provides exact commands:
 wrangler pages deploy ./dist --project-name=my-portfolio
-wrangler secret put DATABASE_URL  # env var सुरक्षित तरीके से
+wrangler secret put DATABASE_URL  # safely handles env vars
 ```
 
 ---
 
-## 🗂️ Folder Structure (क्या है अंदर)
+## 🗂️ Folder Structure (What's Inside)
 
 ```
 skill.md/
 │
 ├── 📋 PLANNING
-│   ├── 00_SYSTEM_INSTRUCTIONS.md   ← AI का master rulebook
+│   ├── 00_SYSTEM_INSTRUCTIONS.md   ← AI's master rulebook
 │   ├── 01_PRD_TEMPLATE.md          ← Product planning template
-│   └── brain.md                    ← AI की persistent memory
+│   └── brain.md                    ← AI's persistent memory
 │
 ├── 🎨 DESIGN
 │   ├── 02_DESIGN_BRIEF.md          ← UI/UX rules (2027 standards)
@@ -146,13 +146,13 @@ skill.md/
 │
 ├── 🤖 AI OPTIMIZATION
 │   ├── 10_MEMORY_MANAGEMENT.md     ← Token compression rules
-│   ├── 12_AUTONOMOUS_RESEARCH.md   ← AI खुद web research करता है
-│   ├── 13_SELF_REFLECTION_LOOP.md  ← AI अपनी गलतियों से सीखता है
+│   ├── 12_AUTONOMOUS_RESEARCH.md   ← AI conducts autonomous web research
+│   ├── 13_SELF_REFLECTION_LOOP.md  ← AI learns from its mistakes
 │   ├── 15_MANDATORY_RULES.md       ← 7 unbreakable laws
 │   └── 16_TOKEN_OPTIMIZATION_ROUTER.md ← Smart context loading
 │
 ├── 📈 TRACKING
-│   ├── CHANGELOG.md                ← हर change का strict log
+│   ├── CHANGELOG.md                ← Strict log of every change
 │   ├── FEATURES.md                 ← Feature roadmap
 │   └── TODO.md                     ← Sprint task tracker
 │
@@ -162,61 +162,61 @@ skill.md/
 
 ---
 
-## 🚦 Token Smart Routing (AI कितना पढ़ता है)
+## 🚦 Token Smart Routing (How much does the AI read?)
 
-AI **सब कुछ blindly नहीं पढ़ता**। `16_TOKEN_OPTIMIZATION_ROUTER.md` तय करता है:
+The AI **does not blindly read everything**. `16_TOKEN_OPTIMIZATION_ROUTER.md` decides:
 
 ```
-⚫ Tier 0 — Simple question ("flex-wrap क्या है?")
-   Token overhead: 0  →  सीधे जवाब दो
+⚫ Tier 0 — Simple question ("what is flex-wrap?")
+   Token overhead: 0  →  Answers directly
 
-🟢 Tier 1 — Small fix ("button का color बदलो")
+🟢 Tier 1 — Small fix ("change button color")
    Token overhead: ~1,500  →  brain.md + rules + target file
 
-🟡 Tier 2 — New feature ("login page जोड़ो")
+🟡 Tier 2 — New feature ("add login page")
    Token overhead: ~3,500  →  PRD + Design + Security
 
-🔴 Tier 3 — Full app ("portfolio site बनाओ")
-   Token overhead: ~10,000  →  सब files, complete veteran mode
+🔴 Tier 3 — Full app ("build portfolio site")
+   Token overhead: ~10,000  →  All files, complete veteran mode
 ```
 
 ---
 
-## 🧠 [LESSONS] — AI खुद से सीखता है
+## 🧠 [LESSONS] — AI Learns Autonomously
 
-`brain.md` में एक special section है जहाँ AI अपनी गलतियाँ note करता है:
+`brain.md` has a special section where the AI notes down its mistakes:
 
 ```markdown
 ## [LESSONS]
-* [2026-08-10] — Folder rename के बाद paths update करना भूला।
-                  Fix: हर rename के बाद brain.md तुरंत update करो।
+* [2026-08-10] — Forgot to update paths after folder rename.
+                  Fix: Immediately update brain.md after every rename.
 ```
 
-अगली बार वही गलती कभी नहीं होगी।
+Next time, the same mistake will never happen again.
 
 ---
 
-## 💡 किसके लिए है यह Folder?
+## 💡 Who is this Folder For?
 
 | User Type | Benefit |
 |---|---|
-| **Solo Developer** | एक AI = पूरी team (PM + Designer + Dev + Security) |
-| **Startup Founder** | Technical co-founder जो कभी नहीं सोता |
+| **Solo Developer** | One AI = Entire team (PM + Designer + Dev + Security) |
+| **Startup Founder** | A Technical co-founder that never sleeps |
 | **Student** | Production-quality projects, professional code |
-| **Freelancer** | हर client के project के लिए consistent quality |
-| **Agency** | एक standard system जो हर AI को instantly onboard करे |
+| **Freelancer** | Consistent quality for every client project |
+| **Agency** | A standard system to instantly onboard any AI |
 
 ---
 
 ## ⚠️ Important Notes
 
-> **यह folder आपके project के साथ रखें, GitHub पर push मत करें अगर `brain.md` में sensitive info है।**
+> **Keep this folder with your project. Do not push to GitHub if `brain.md` contains sensitive info.**
 
-> **हर नए project के लिए `brain.md` को reset करें — पुराने project का context नए में mix नहीं होना चाहिए।**
+> **Reset `brain.md` for every new project — old project context should not mix with the new one.**
 
-> **`skills/` folder में अच्छे काम को save करते रहें — यह आपका personal AI skill library बनेगा।**
+> **Keep saving good work in the `skills/` folder — this will become your personal AI skill library.**
 
 ---
 
-*Made with ❤️ — AI को दिमाग देने के लिए।*
+*Made with ❤️ — Giving a brain to the AI.*
 *Version: 2.0 | Files: 22 | Last Updated: 2026-08-10*
