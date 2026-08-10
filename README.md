@@ -22,6 +22,23 @@ It now contains only **5 Mega Files (Pillars)** that instruct the AI:
 
 ---
 
+## 📦 Quick Installation
+
+You don't need to manually clone this repository. You can inject the entire Vibe Brain OS into your current project instantly using NPM.
+
+Run this command in your terminal:
+
+```bash
+npx vibe-brain-os
+```
+
+**What this does:**
+- Creates a `skill.md` directory in your current path.
+- Automatically downloads and copies all **5 Mega Pillars** + `brain.md`.
+- Safely skips overwriting your existing project `README.md`.
+
+---
+
 ## 🚀 How to Use? (3 Steps)
 
 ### 📝 Master Prompt for AI (Copy from here)
