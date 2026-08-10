@@ -21,8 +21,14 @@
 ## 🚀 कैसे Use करें? (3 Steps)
 
 ```
-Step 1: इस पूरे _ai_core_brain/ folder को अपने project में रखें।
+Step 1: इस पूरे folder को अपने project में `_ai_core_brain` नाम से रखें।
 
+**GitHub से कैसे Download करें:**
+```bash
+# Terminal में यह command चलाएं (यह automatically सही नाम से folder बनाएगा):
+git clone https://github.com/SudhirDevOps1/Skill.md.git _ai_core_brain
+```
+*(अगर ZIP download कर रहे हैं, तो folder extract करके उसका नाम `_ai_core_brain` रख दें)*
 Step 2: AI को यह prompt दें:
         "Read _ai_core_brain/00_SYSTEM_INSTRUCTIONS.md
          and follow the ecosystem. My idea: [आपका idea]"
