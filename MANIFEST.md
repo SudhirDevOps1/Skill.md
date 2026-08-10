@@ -1,7 +1,7 @@
 # 🗺️ MANIFEST.md — System Architecture Map
 
-> This document is the master reference for the `_ai_core_brain` system.
-> It shows how every file connects, when to use each, and the complete workflow.
+> This document is the master reference for the Vibe Ecosystem system. 
+It defines how the AI navigates files, manages tokens, and executes workflows.
 
 ---
 

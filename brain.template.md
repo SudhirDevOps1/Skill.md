@@ -34,18 +34,18 @@
 * `[ADD_MORE_HERE]`
 
 ## 📂 System File Pointers (For AI Reference)
-* **Router (Read First!):** `_ai_core_brain/16_TOKEN_OPTIMIZATION_ROUTER.md`
-* **PRD Rules:** `_ai_core_brain/01_PRD_TEMPLATE.md`
-* **Design Rules:** `_ai_core_brain/02_DESIGN_BRIEF.md`
-* **Security Rules:** `_ai_core_brain/03_SECURITY_AUDIT.md`
-* **Debug Rules:** `_ai_core_brain/04_DEBUGGING_PROTOCOL.md`
-* **Test Rules:** `_ai_core_brain/05_TESTING_GUIDE.md`
-* **Cleanup Rules:** `_ai_core_brain/06_CLEANUP_RULES.md`
-* **Git Rules:** `_ai_core_brain/07_GIT_COMMITS.md`
-* **Performance:** `_ai_core_brain/17_PERFORMANCE_GUIDE.md`
-* **Deployment:** `_ai_core_brain/18_DEPLOYMENT_GUIDE.md`
-* **API Design:** `_ai_core_brain/19_API_DESIGN_GUIDE.md`
-* **Skills:** `_ai_core_brain/skills/`
+* **Router (Read First!):** `16_TOKEN_OPTIMIZATION_ROUTER.md`
+* **PRD Rules:** `01_PRD_TEMPLATE.md`
+* **Design Rules:** `02_DESIGN_BRIEF.md`
+* **Security Rules:** `03_SECURITY_AUDIT.md`
+* **Debug Rules:** `04_DEBUGGING_PROTOCOL.md`
+* **Test Rules:** `05_TESTING_GUIDE.md`
+* **Cleanup Rules:** `06_CLEANUP_RULES.md`
+* **Git Rules:** `07_GIT_COMMITS.md`
+* **Performance:** `17_PERFORMANCE_GUIDE.md`
+* **Deployment:** `18_DEPLOYMENT_GUIDE.md`
+* **API Design:** `19_API_DESIGN_GUIDE.md`
+* **Skills:** `skills/`
 
 ## 🧠 [LESSONS] — Permanent Error Log
 > AI: जब भी कोई गलती हो, उसे यहाँ add करो ताकि दोबारा न हो।

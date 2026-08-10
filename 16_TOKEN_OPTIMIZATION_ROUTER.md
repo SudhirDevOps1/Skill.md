@@ -1,6 +1,6 @@
 # 🚦 16_TOKEN_OPTIMIZATION_ROUTER (The Context Toll Plaza)
 
-> **CRITICAL RULE:** DO NOT blindly read all `.md` files in `_ai_core_brain` when starting a task. Doing so wastes tokens and slows down execution. Use this router to determine your required context tier.
+> **CRITICAL RULE:** DO NOT blindly read all `.md` files in the ecosystem when starting a task. Doing so wastes tokens and slows down execution. Use this router to determine your required context tier.
 
 ## How to use this router:
 When the user gives a prompt, analyze the scope and classify into ONE tier. Read ONLY that tier's files.
@@ -31,7 +31,7 @@ When the user gives a prompt, analyze the scope and classify into ONE tier. Read
 ### 🔴 Tier 3: Full App Generation / Major Refactor (Deep Work)
 **Trigger:** User asks to build a completely new app from scratch, perform a massive architecture change, or do a full system migration.
 **Required Context:**
-- Read ALL files in the `_ai_core_brain` directory to establish the complete 25-Year Veteran persona and strict workflow.
+- Read ALL files in the system directory to establish the complete 25-Year Veteran persona and strict workflow.
 
 ---
 **Related Files:** [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [brain.md](brain.md) | [10_MEMORY_MANAGEMENT.md](10_MEMORY_MANAGEMENT.md) | [MANIFEST.md](MANIFEST.md)

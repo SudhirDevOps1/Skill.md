@@ -1,4 +1,4 @@
-# 🧠 `_ai_core_brain` — Your AI's Master Brain
+# 🧠 Vibe Coding Ecosystem - Your AI's Master Brain
 
 > **किसी भी AI को यह folder दो और एक prompt में बताओ अपना idea — बाकी सब AI खुद करेगा।**
 
@@ -21,16 +21,13 @@
 ## 🚀 कैसे Use करें? (3 Steps)
 
 ```
-Step 1: इस पूरे folder को अपने project में `_ai_core_brain` नाम से रखें।
+Step 1: GitHub से Clone करें
 
-**GitHub से कैसे Download करें:**
-```bash
-# Terminal में यह command चलाएं (यह automatically सही नाम से folder बनाएगा):
-git clone https://github.com/SudhirDevOps1/Skill.md.git _ai_core_brain
-```
-*(अगर ZIP download कर रहे हैं, तो folder extract करके उसका नाम `_ai_core_brain` रख दें)*
+Terminal में यह command चलाएं:
+git clone https://github.com/SudhirDevOps1/Skill.md.git
+
 Step 2: AI को यह prompt दें:
-        "Read _ai_core_brain/00_SYSTEM_INSTRUCTIONS.md
+        "Read 00_SYSTEM_INSTRUCTIONS.md from the cloned folder
          and follow the ecosystem. My idea: [आपका idea]"
 
 Step 3: बस। AI बाकी सब खुद करेगा।
@@ -38,11 +35,11 @@ Step 3: बस। AI बाकी सब खुद करेगा।
 
 ---
 
-## 📊 Normal AI vs `_ai_core_brain` AI — Real Comparison
+## 📊 Normal AI vs System AI — Real Comparison
 
 ### Example Task: *"Portfolio landing page banao Cloudflare Pages + Neon Database ke saath"*
 
-| Factor | Normal AI (बिना folder) | `_ai_core_brain` AI |
+| Factor | Normal AI (बिना folder) | System AI |
 |---|---|---|
 | **Total Tokens Used** | ~11,185 | ~16,000 |
 | **Back-and-forth rounds** | 7 बार | 1-2 बार |
@@ -58,7 +55,7 @@ Step 3: बस। AI बाकी सब खुद करेगा।
 
 ## 🔴 Normal AI क्या गलतियाँ करता है?
 
-यह सब **real गलतियाँ** हैं जो normal AI करता है (और `_ai_core_brain` AI नहीं करता):
+यहाँ एक **real example** है कि एक normal AI कैसे फँसता है (और System AI कैसे बचाता है):
 
 | गलती | नुकसान |
 |---|---|
@@ -72,14 +69,14 @@ Step 3: बस। AI बाकी सब खुद करेगा।
 
 ---
 
-## ✅ `_ai_core_brain` AI क्या better करता है?
+## 🤖 System AI क्यों better code लिखता है?
 
 ### 1. 🎯 सही Driver इस्तेमाल करता है
 ```js
 // Normal AI (WRONG — crashes on Cloudflare)
 import { Pool } from 'pg'
 
-// _ai_core_brain AI (CORRECT — edge-compatible)
+// System AI (CORRECT - edge-compatible)
 import { neon } from '@neondatabase/serverless'
 ```
 
@@ -88,7 +85,7 @@ import { neon } from '@neondatabase/serverless'
 // Normal AI (INSECURE)
 localStorage.setItem('token', jwt)
 
-// _ai_core_brain AI (SECURE)
+// System AI (SECURE)
 // Uses HttpOnly cookies — JS access नहीं कर सकता
 res.setHeader('Set-Cookie', `token=${jwt}; HttpOnly; Secure; SameSite=Strict`)
 ```
@@ -96,12 +93,12 @@ res.setHeader('Set-Cookie', `token=${jwt}; HttpOnly; Secure; SameSite=Strict`)
 ### 3. 🧠 Context याद रहता है
 ```
 Normal AI:    Session 2 में भूल गया कि आपने PostgreSQL choose किया था
-_ai_core_brain: brain.md में लिखा है — कभी नहीं भूलेगा
+System AI: brain.md पढ़ता है - "अच्छा, पिछली बार मैंने..."गा
 ```
 
 ### 4. 🚀 First-try Deployment
 ```bash
-# _ai_core_brain exact commands देता है:
+# System AI exact commands बताता है:
 wrangler pages deploy ./dist --project-name=my-portfolio
 wrangler secret put DATABASE_URL  # env var सुरक्षित तरीके से
 ```
