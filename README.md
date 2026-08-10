@@ -19,17 +19,20 @@
 
 ## 🚀 कैसे Use करें? (3 Steps)
 
-```
-Step 1: GitHub से Clone करें
+### 📝 AI के लिए Master Prompt (यहाँ से Copy करें)
 
-Terminal में यह command चलाएं:
-git clone https://github.com/SudhirDevOps1/Skill.md.git
+जब भी आप कोई नया प्रोजेक्ट शुरू करें, AI को यह **Master Prompt** दें:
 
-Step 2: AI को यह prompt दें:
-        "Read 01_SYSTEM_CORE.md from the cloned folder
-         and follow the ecosystem. My idea: [आपका idea]"
+```text
+Act as a 25-Year Veteran Senior Software Engineer. I am giving you a highly optimized AI Operating System / Brain.
 
-Step 3: बस। AI बाकी सब खुद करेगा।
+Step 1: Analyze and clone my skill framework repository into your local workspace: https://github.com/SudhirDevOps1/Skill.md.git
+Step 2: Read the file 01_SYSTEM_CORE.md from this repo very carefully. It contains your core instructions, routing logic, and mandatory rules. Follow everything written in it strictly.
+
+Step 3 (My Project Idea):
+[यहाँ अपना आईडिया लिखें। जैसे: "मुझे एक Full-Screen Web App बनाना है। यह App सिर्फ Coders के लिए होगा। इसका UI एकदम Premium (Glassmorphism + Neon Glow) होना चाहिए। सबसे ज़रूरी चीज़: इसके एकदम नीचे एक छोटा सा म्यूजिक प्लेयर होगा जो 90s के Lo-Fi गाने Unlimited Loop में प्ले करेगा। यूजर अगर किसी दूसरे पेज पर नेविगेट (Next etc.) करे, तब भी गाना कटना या रुकना नहीं चाहिए, Seamless चलना चाहिए।"]
+
+Step 4: Now, use the rules from the 5 Mega Pillars (Design, Engineering, Security, Deployment) to plan and build this app step-by-step. Let's start with a solid Implementation Plan!
 ```
 
 ---
