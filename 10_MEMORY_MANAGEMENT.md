@@ -12,3 +12,6 @@
 
 ## The End-of-Turn Cleanup
 Before you end your turn, you MUST look at `brain.md` and ask yourself: "Can I remove 20 words from this without losing the core technical context?" If yes, delete them.
+
+---
+**Related Files:** [brain.md](brain.md) | [16_TOKEN_OPTIMIZATION_ROUTER.md](16_TOKEN_OPTIMIZATION_ROUTER.md) | [13_SELF_REFLECTION_LOOP.md](13_SELF_REFLECTION_LOOP.md) | [MANIFEST.md](MANIFEST.md)

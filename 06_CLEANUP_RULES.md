@@ -17,3 +17,6 @@ Present a table with a risk level for each deletion. Stop and wait for user appr
 * Extract duplicated logic into shared utilities.
 * Split oversized files strictly along responsibility lines.
 * **Rule:** System behavior must remain identical. No new dependencies. No renaming public APIs.
+
+---
+**Related Files:** [07_GIT_COMMITS.md](07_GIT_COMMITS.md) | [10_MEMORY_MANAGEMENT.md](10_MEMORY_MANAGEMENT.md) | [brain.md](brain.md) | [MANIFEST.md](MANIFEST.md)

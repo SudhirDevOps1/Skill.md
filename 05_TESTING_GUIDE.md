@@ -19,3 +19,6 @@ E2E Testing ensures we don't break features during vibe coding. Default to Playw
 ## Integration:
 * Ensure `npm run test:e2e` works locally.
 * Add a CI workflow (e.g., GitHub Actions) to run tests on every PR.
+
+---
+**Related Files:** [09_HACKER_TESTING.md](09_HACKER_TESTING.md) | [17_PERFORMANCE_GUIDE.md](17_PERFORMANCE_GUIDE.md) | [06_CLEANUP_RULES.md](06_CLEANUP_RULES.md) | [MANIFEST.md](MANIFEST.md)

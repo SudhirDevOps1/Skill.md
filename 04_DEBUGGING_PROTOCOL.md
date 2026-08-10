@@ -16,3 +16,6 @@ Stop and wait for the user to provide the test results.
 
 ## Step 5: Fix
 Only after confirming the root cause, write the minimal fix. Explain why it works, and tell the user exactly what to test to verify. DO NOT refactor unrelated code.
+
+---
+**Related Files:** [13_SELF_REFLECTION_LOOP.md](13_SELF_REFLECTION_LOOP.md) | [12_AUTONOMOUS_RESEARCH.md](12_AUTONOMOUS_RESEARCH.md) | [brain.md](brain.md) | [MANIFEST.md](MANIFEST.md)

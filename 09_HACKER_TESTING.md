@@ -22,3 +22,6 @@ For every new endpoint, UI form, or database query, simulate the following attac
 
 ## 3. Approval
 Only when you, acting as the Hacker, can no longer find a viable exploit, may you proceed to commit the code. Document the attempted attacks and mitigations in `CHANGELOG.md`.
+
+---
+**Related Files:** [03_SECURITY_AUDIT.md](03_SECURITY_AUDIT.md) | [15_MANDATORY_RULES.md](15_MANDATORY_RULES.md) | [05_TESTING_GUIDE.md](05_TESTING_GUIDE.md) | [MANIFEST.md](MANIFEST.md)

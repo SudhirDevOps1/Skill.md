@@ -35,4 +35,7 @@
 ## 🧠 [LESSONS] — Permanent Error Log
 > AI: जब भी कोई गलती हो, उसे यहाँ add करो ताकि दोबारा न हो। (From `13_SELF_REFLECTION_LOOP.md`)
 
-* `[2026-08-10]` — Folder rename के बाद brain.md के file pointers पुराने नाम पर रह गए। Fix: हर rename के बाद brain.md के pointers तुरंत update करो।
+* `[2026-08-10]` - Folder rename ke baad brain.md ke file pointers update karna bhool gaya tha. Fix: Har rename ke baad brain.md ke pointers turant update karo.
+
+---
+**Related Files:** [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [16_TOKEN_OPTIMIZATION_ROUTER.md](16_TOKEN_OPTIMIZATION_ROUTER.md) | [10_MEMORY_MANAGEMENT.md](10_MEMORY_MANAGEMENT.md) | [13_SELF_REFLECTION_LOOP.md](13_SELF_REFLECTION_LOOP.md) | [MANIFEST.md](MANIFEST.md)

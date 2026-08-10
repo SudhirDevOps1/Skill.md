@@ -17,3 +17,6 @@ Your history is your documentation. Keep it pristine.
 3. Add a blank line and a body explaining WHY the change was needed and any tradeoffs.
 4. Mark breaking changes with `BREAKING CHANGE:`.
 5. Never write vague messages like "update", "fix stuff", or "wip".
+
+---
+**Related Files:** [18_DEPLOYMENT_GUIDE.md](18_DEPLOYMENT_GUIDE.md) | [03_SECURITY_AUDIT.md](03_SECURITY_AUDIT.md) | [15_MANDATORY_RULES.md](15_MANDATORY_RULES.md) | [MANIFEST.md](MANIFEST.md)

@@ -10,3 +10,6 @@ When a complex task is completed successfully and might need to be repeated in t
 5. **Output Format:** Expected result template.
 6. **Worked Example:** One full input-to-output example.
 7. **Failure Modes:** 3-5 ways this commonly goes wrong and how to avoid them.
+
+---
+**Related Files:** [skills/README.md](skills/README.md) | [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [CHANGELOG.md](CHANGELOG.md) | [MANIFEST.md](MANIFEST.md)

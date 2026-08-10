@@ -39,3 +39,6 @@ When building applications in this ecosystem, you are targeting the modern 2027 
 * **Local-First AI:** For classification, embedding, sentiment — run `transformers.js` (Xenova) in a Web Worker. Never block the main thread.
 * **Cloud Fallback:** Only route to OpenAI/Anthropic/Gemini APIs when the task requires heavy reasoning that local models can’t handle.
 * **Prompt Security:** Always sanitize user input before injecting into prompts. Implement server-side prompt injection detection.
+
+---
+**Related Files:** [17_PERFORMANCE_GUIDE.md](17_PERFORMANCE_GUIDE.md) | [19_API_DESIGN_GUIDE.md](19_API_DESIGN_GUIDE.md) | [18_DEPLOYMENT_GUIDE.md](18_DEPLOYMENT_GUIDE.md) | [02_DESIGN_BRIEF.md](02_DESIGN_BRIEF.md) | [MANIFEST.md](MANIFEST.md)

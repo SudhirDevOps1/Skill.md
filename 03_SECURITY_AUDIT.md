@@ -15,3 +15,6 @@ Run this checklist BEFORE deploying any code. Do NOT modify code during the audi
 * **File & Line:** 
 * **Exploit Scenario:** How an attacker would abuse this.
 * **Proposed Fix:** The exact code fix (wait for user approval to apply).
+
+---
+**Related Files:** [09_HACKER_TESTING.md](09_HACKER_TESTING.md) | [19_API_DESIGN_GUIDE.md](19_API_DESIGN_GUIDE.md) | [15_MANDATORY_RULES.md](15_MANDATORY_RULES.md) | [MANIFEST.md](MANIFEST.md)

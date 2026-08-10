@@ -22,3 +22,6 @@ If the user requests documentation or explanations in Hindi/Hinglish, the AI MUS
 
 ## 7. FULL CODE, NO PLACEHOLDERS
 The AI MUST NEVER use placeholder comments like `// TODO: add logic here` or `/* rest of the code */`. The AI must always output 100% complete, production-ready code.
+
+---
+**Related Files:** [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [07_GIT_COMMITS.md](07_GIT_COMMITS.md) | [09_HACKER_TESTING.md](09_HACKER_TESTING.md) | [CHANGELOG.md](CHANGELOG.md) | [MANIFEST.md](MANIFEST.md)

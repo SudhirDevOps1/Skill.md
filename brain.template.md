@@ -50,3 +50,6 @@
 ## 🧠 [LESSONS] — Permanent Error Log
 > AI: जब भी कोई गलती हो, उसे यहाँ add करो ताकि दोबारा न हो।
 * *(empty — add lessons here as project progresses)*
+
+---
+**Related Files:** [brain.md](brain.md) | [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [10_MEMORY_MANAGEMENT.md](10_MEMORY_MANAGEMENT.md) | [SECURITY.md](SECURITY.md) | [MANIFEST.md](MANIFEST.md)

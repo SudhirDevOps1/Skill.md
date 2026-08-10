@@ -31,3 +31,6 @@ As an AI Vibe Coder, use this format to define what you are building BEFORE writ
 
 ## 9. Open Questions for User
 * (Flag ambiguous requirements here. Do not invent them).
+
+---
+**Related Files:** [02_DESIGN_BRIEF.md](02_DESIGN_BRIEF.md) | [14_BRANDING_GUIDE.md](14_BRANDING_GUIDE.md) | [brain.md](brain.md) | [MANIFEST.md](MANIFEST.md)

@@ -31,3 +31,6 @@
 
 ---
 *(AI: Add new entries above this line in descending chronological order following the exact format above)*
+
+---
+**Related Files:** [brain.md](brain.md) | [TODO.md](TODO.md) | [15_MANDATORY_RULES.md](15_MANDATORY_RULES.md) | [MANIFEST.md](MANIFEST.md)

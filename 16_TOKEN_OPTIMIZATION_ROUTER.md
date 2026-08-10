@@ -32,3 +32,6 @@ When the user gives a prompt, analyze the scope and classify into ONE tier. Read
 **Trigger:** User asks to build a completely new app from scratch, perform a massive architecture change, or do a full system migration.
 **Required Context:**
 - Read ALL files in the `_ai_core_brain` directory to establish the complete 25-Year Veteran persona and strict workflow.
+
+---
+**Related Files:** [00_SYSTEM_INSTRUCTIONS.md](00_SYSTEM_INSTRUCTIONS.md) | [brain.md](brain.md) | [10_MEMORY_MANAGEMENT.md](10_MEMORY_MANAGEMENT.md) | [MANIFEST.md](MANIFEST.md)

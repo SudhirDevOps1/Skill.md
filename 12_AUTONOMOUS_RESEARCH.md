@@ -14,3 +14,6 @@ You MUST use a web search tool or read documentation files autonomously when:
 3. **Synthesize:** Read the official docs, GitHub issues, or StackOverflow.
 4. **Apply:** Once you have the EXACT syntax, proceed to write the code. 
 5. **Log:** Document the researched solution in `CHANGELOG.md` so the user knows you verified it.
+
+---
+**Related Files:** [04_DEBUGGING_PROTOCOL.md](04_DEBUGGING_PROTOCOL.md) | [CHANGELOG.md](CHANGELOG.md) | [brain.md](brain.md) | [MANIFEST.md](MANIFEST.md)

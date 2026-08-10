@@ -23,3 +23,6 @@ Before you code the UI, produce this brief based on the PRD.
 * Container Queries over Media Queries where applicable.
 * Ensure minimum 4.5:1 contrast ratios. 
 * Keyboard navigation and ARIA attributes are mandatory.
+
+---
+**Related Files:** [01_PRD_TEMPLATE.md](01_PRD_TEMPLATE.md) | [14_BRANDING_GUIDE.md](14_BRANDING_GUIDE.md) | [17_PERFORMANCE_GUIDE.md](17_PERFORMANCE_GUIDE.md) | [MANIFEST.md](MANIFEST.md)
