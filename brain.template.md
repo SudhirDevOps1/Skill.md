@@ -37,6 +37,7 @@
 * **Router (Read First!):** `16_TOKEN_OPTIMIZATION_ROUTER.md`
 * **PRD Rules:** `01_PRD_TEMPLATE.md`
 * **Design Rules:** `02_DESIGN_BRIEF.md`
+* **UI Components:** `20_UI_COMPONENTS_GUIDE.md`
 * **Security Rules:** `03_SECURITY_AUDIT.md`
 * **Debug Rules:** `04_DEBUGGING_PROTOCOL.md`
 * **Test Rules:** `05_TESTING_GUIDE.md`

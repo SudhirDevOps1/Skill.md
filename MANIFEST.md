@@ -72,6 +72,7 @@ graph TD
 | `01_PRD_TEMPLATE.md` | Product requirements | → 02_DESIGN_BRIEF |
 | `02_DESIGN_BRIEF.md` | UI/UX rules (2027) | → 14_BRANDING_GUIDE |
 | `14_BRANDING_GUIDE.md` | Color system, fonts, SVG logos | → 02_DESIGN_BRIEF |
+| `20_UI_COMPONENTS_GUIDE.md` | Component reuse, design consistency | → 02_DESIGN_BRIEF |
 
 ### 🔐 Security & Quality (Tier 2+)
 | File | Purpose | Reads Into |
