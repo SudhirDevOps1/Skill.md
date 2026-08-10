@@ -33,6 +33,9 @@ Step 3 (My Project Idea):
 [यहाँ अपना आईडिया लिखें। जैसे: "मुझे एक Full-Screen Web App बनाना है। यह App सिर्फ Coders के लिए होगा। इसका UI एकदम Premium (Glassmorphism + Neon Glow) होना चाहिए। सबसे ज़रूरी चीज़: इसके एकदम नीचे एक छोटा सा म्यूजिक प्लेयर होगा जो 90s के Lo-Fi गाने Unlimited Loop में प्ले करेगा। यूजर अगर किसी दूसरे पेज पर नेविगेट (Next etc.) करे, तब भी गाना कटना या रुकना नहीं चाहिए, Seamless चलना चाहिए।"]
 
 Step 4: Now, use the rules from the 5 Mega Pillars (Design, Engineering, Security, Deployment) to plan and build this app step-by-step. Let's start with a solid Implementation Plan!
+
+Step 5 (After AI provides the Implementation Plan, reply with this):
+This Implementation Plan is perfect! I approve it. Proceed to build Phase 1 and Phase 2. Write the actual code now.
 ```
 
 ---
